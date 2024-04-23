@@ -57,7 +57,7 @@ public class Main {
             number = romanToDecimal(input);
         }
 
-        if (number < 1 | number > 11)
+        if (number < 1 | number > 10)
             throw new Exception("допустимый диапозон чисел [1:10]");
         return number;
     }
